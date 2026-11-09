@@ -16,7 +16,7 @@ module Aigifmaker
   BASE_URL = "https://aigifmaker.ai".freeze
   KEYS_URL = "https://aigifmaker.ai/settings/apikeys".freeze
   PRICING_URL = "https://aigifmaker.ai/pricing".freeze
-  DEFAULT_TIMEOUT = 300
+  DEFAULT_TIMEOUT = 900
   POLL_EVERY = 3
 
   # Base of every error this gem raises. #code is the JSON code when there was one.

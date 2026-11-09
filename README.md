@@ -34,7 +34,7 @@ puts Aigifmaker.credits # remaining credits, free to call
 ## Client
 
 ```ruby
-gif = Aigifmaker::Client.new("sk-...", timeout: 300) # timeout in seconds, 5 minutes by default
+gif = Aigifmaker::Client.new("sk-...", timeout: 900) # timeout in seconds, 15 minutes by default
 url = gif.generate("a tiny dragon sneezing a puff of glitter")
 ```
 
